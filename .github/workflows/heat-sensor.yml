@@ -18,3 +18,5 @@ jobs:
   detect-heat:
     uses: jonathanpeppers/inclusive-heat-sensor/.github/workflows/comments.yml@dev/haritha/min-comment
     secrets: inherit
+    with:
+      minimizeComment: true
