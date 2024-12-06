@@ -21,4 +21,4 @@ jobs:
     with:
       minimizeComment: true
       offensiveThreshold: 2
-      angerThreshold: 2
+      angerThreshold: 3
