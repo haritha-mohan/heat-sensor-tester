@@ -16,7 +16,9 @@ permissions:
 
 jobs:
   detect-heat:
-    uses: jonathanpeppers/inclusive-heat-sensor/.github/workflows/comments.yml@dev/haritha/min-comment
+    uses: jonathanpeppers/inclusive-heat-sensor/.github/workflows/comments.yml@dev/haritha/parametrize-offense-value
     secrets: inherit
     with:
       minimizeComment: true
+      offensiveThreshold: 2
+      angerThreshold: 2
